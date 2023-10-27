@@ -51,7 +51,9 @@ class _eventState extends State<event> {
         'Content-Type': 'application/json; charset=UTF-8',
       },
       body: jsonEncode(<String, String>{
-        'uid':widget.uid,
+        'uid':widget.uid
+
+        ,
       }),
     );
     print(response.body);
